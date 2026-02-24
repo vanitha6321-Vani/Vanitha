@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vanitha Domathoti | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#450637;
+    color:white;
+}
+
+/* NAVIGATION */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#567c05;
+}
+
+nav h1{
+    color:#14066f;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+/* HERO SECTION */
+.hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:80px 8%;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    max-width:500px;
+}
+
+.hero-text h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.hero-text span{
+    color:#38bdf8;
+}
+
+.hero-text p{
+    margin-bottom:20px;
+    line-height:1.6;
+}
+
+.btn{
+    padding:12px 28px;
+    background:#38bdf8;
+    color:black;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+}
+
+.hero img{
+    width:260px;
+    height:260px;
+    object-fit:cover;
+    border-radius:50%;
+    border:4px solid #38bdf8;
+}
+
+/* SECTION */
+section{
+    padding:60px 8%;
+    text-align:center;
+}
+
+section h2{
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+/* EDUCATION */
+#education{
+    max-width:900px;
+    margin:auto;
+}
+
+.edu-card{
+    background:#1e293b;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.edu-card:hover{
+    transform:translateY(-5px);
+}
+
+/* PROJECTS & SKILLS */
+.projects{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    width:300px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+details summary{
+    cursor:pointer;
+    font-weight:bold;
+    margin-bottom:10px;
+    color:#38bdf8;
+}
+
+.card p{
+    color:#cbd5e1;
+}
+
+/* CONTACT */
+#contact a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#283b1e;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+    <h1>Vanitha Domathoti</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#myskills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <div class="hero-text">
+        <h1>Hi, I'm <span>Vanitha</span></h1>
+        <h3>Full Stack Developer</h3>
+        <p>B.Tech Final Year student in CSE (AIML). Passionate about building responsive and user-friendly web applications.</p>
+        <a href="#contact" class="btn">Hire Me</a>
+    </div>
+
+    <img src="vanithagreenandpinkpassport size.jpg" alt="Vanitha">
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am Vanitha from Hyderabad, currently pursuing B.Tech Final Year at 
+        Malla Reddy Institute of Technology and Science in CSE (AIML).
+        I am learning Full Stack Web Development and continuously improving my coding skills.
+    </p>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="edu-card">
+        <h3>B.Tech – CSE (AIML)</h3>
+        <p>Malla Reddy Institute of Technology and Science (2026)</p>
+        <p>CGPA: 7.5</p>
+    </div>
+
+    <div class="edu-card">
+        <h3>Intermediate</h3>
+        <p>NRI Junior College (2021)</p>
+        <p>Percentage: 74%</p>
+    </div>
+
+    <div class="edu-card">
+        <h3>SSC</h3>
+        <p>Blooming Buds Convent School (2019)</p>
+        <p>Percentage: 78%</p>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+
+        <div class="card">
+            <h3>Secure Data Sharing in Cloud</h3>
+            <details>
+                <summary>View Details</summary>
+                <p>Secure cloud-based data sharing system ensuring privacy and controlled access for big data applications.</p>
+            </details>
+        </div>
+
+        <div class="card">
+            <h3>Deep Hashing Biometrics</h3>
+            <details>
+                <summary>View Details</summary>
+                <p>Used deep learning to generate secure hash codes from multimodal biometric data.</p>
+            </details>
+        </div>
+
+        <div class="card">
+            <h3>Heart Disease Detection</h3>
+            <details>
+                <summary>View Details</summary>
+                <p>Machine Learning model to predict heart disease risk using patient medical data.</p>
+            </details>
+        </div>
+
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="myskills">
+    <h2>My Skills</h2>
+    <div class="projects">
+
+        <div class="card">
+            <h3>Technical Skills</h3>
+            <p>C, Python, Java, HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="card">
+            <h3>Tools</h3>
+            <p>Excel, Word, PowerPoint</p>
+        </div>
+
+        <div class="card">
+            <h3>Soft Skills</h3>
+            <p>Communication, Teamwork, Fast Learner</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: vanitha6321@gmail.com</p>
+    <p><a href="https://www.linkedin.com/in/vanitha-domathoti-690b1b2a1" target="_blank"><u>LinkedIn Profile</u></a></p>
+</section>
+
+<footer>
+    © 2026 Vanitha Domathoti | All Rights Reserved
+</footer>
+
+</body>
+</html>
